@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="107">
+    <author>kendolin</author>
+    <version>1.2.0.0</version>
+    <title>
+        <en>Contract Vehicles To Field</en>
+        <de>Vertragsfahrzeuge zum Feld</de>
+    </title>
+    <description>
+        <en><![CDATA[Leased contract vehicles are delivered straight to the contract field instead of the shop.
+
+- Vehicles are parked side by side just inside the field edge closest to a road, facing into the field.
+- An in-game message tells you which field the vehicles were delivered to.
+- Field contracts can be started with leased equipment even when the shop spawn area is full.
+- Contracts that are not tied to a field (transport, etc.) keep the normal shop delivery.
+- Works in single player and multiplayer (server side).]]></en>
+        <de><![CDATA[Geleaste Vertragsfahrzeuge werden direkt zum Vertragsfeld geliefert statt zum Shop.
+
+- Fahrzeuge werden nebeneinander am Feldrand nahe der Straße abgestellt, Richtung Feld.
+- Eine Meldung im Spiel zeigt, zu welchem Feld geliefert wurde.
+- Feldverträge können auch mit Leihgeräten gestartet werden, wenn der Shop-Bereich voll ist.
+- Verträge ohne Feld behalten die normale Lieferung zum Shop.
+- Funktioniert im Einzel- und Mehrspielermodus (serverseitig).]]></de>
+    </description>
+    <iconFilename>icon_ContractVehiclesToField.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <l10n>
+        <text name="cvtf_vehiclesDelivered">
+            <en>%d leased vehicle(s) delivered to field %s</en>
+            <de>%d Leihfahrzeug(e) zu Feld %s geliefert</de>
+        </text>
+    </l10n>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/ContractVehiclesToField.lua"/>
+    </extraSourceFiles>
+</modDesc>
