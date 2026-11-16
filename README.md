@@ -14,7 +14,7 @@ If no road is within 150 m, the vehicles go to the field edge closest to the mid
 
 ## Install
 
-1. Zip the contents of this repository (`modDesc.xml` at the top level of the zip) as `FS25_ContractVehiclesToField.zip`.
+1. Download `FS25_ContractVehiclesToField.zip` from the [latest release](https://github.com/kendolin/FS25_ContractVehiclesToField/releases/latest).
 2. Put the zip in `Documents/My Games/FarmingSimulator2025/mods/`. Do not unzip it.
 3. Enable the mod in your savegame.
 
@@ -34,3 +34,7 @@ Edit the values at the top of `scripts/ContractVehiclesToField.lua`:
 ## Troubleshooting
 
 `log.txt` shows where the vehicles were placed, in lines starting with `[FS25_ContractVehiclesToField]`.
+
+## License
+
+[MIT](LICENSE)
